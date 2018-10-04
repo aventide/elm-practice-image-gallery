@@ -7,6 +7,10 @@ import Html.Events exposing (onClick, onInput)
 import Http
 
 
+
+-- To learn http and Browser.element: https://guide.elm-lang.org/effects/
+
+
 main =
     Browser.sandbox { init = init, update = update, view = view }
 
